@@ -20,11 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
+  username: "Farook Dev",
   title: "Hi all, I'm Farook",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-  ),
+"A passionate Full Stack Software Developer 🚀 with hands-on experience in designing, developing, and deploying high-performance Web and Mobile applications. Skilled in JavaScript, TypeScript, Angular, React.js, Node.js, and modern frameworks, with a strong focus on clean architecture, performance optimization, and responsive UI. Enthusiastic about building scalable applications, integrating RESTful APIs, and implementing state management (NgRx / Redux)."  ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -33,13 +32,15 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Maskooth",
+  linkedin: "https://www.linkedin.com/in/maskooth-farook-770576200/",
+  gmail: "maskoothfarook123gmail.com",
+  instagram: "https://www.instagram.com/farook_dev/",
+  Teams: "https://teams.microsoft.com/l/team/19%3a1d5f1e0f5f6c4e3b9a3e1c4e4b8e7f5f%40thread.tacv2/conversations?groupId=00000000-0000-0000-0000-000000000000&tenantId=00000000-0000-0000-0000-000000000000",
+  // gitlab: "https://gitlab.com/saadpasta",
+  // facebook: "https://www.facebook.com/saad.pasta7",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",/
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -126,10 +127,10 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
+      schoolName: "EGS Pillay Engineering College ( Anna University )",
+      logo: require("./assets/images/Egs.jpg"),
+      subHeader: "Master of Computer Applications",
+      duration: "June 2020 - April 2022",
       desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -137,10 +138,10 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "EGS Pillay Arts and Science College ( Bharathidasan University )",
+      logo: require("./assets/images/Egs.jpg"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      duration: "July 2017 - June 20200",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
@@ -153,16 +154,28 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Frontend / UI Design / Mobile Responsive Design", //Insert stack or technology you have experience in
+      progressPercentage: "99%" //Insert relative proficiency in percentage,
+    },
+     {
+      Stack: "Css / Scss / Tailwind / Metronic / Bootstrap / Material UI ",
+      progressPercentage: "99%"
     },
     {
-      Stack: "Backend",
+      Stack: "Javascript / TypeScript / Angular / React / NodeJS",
+      progressPercentage: "95%"
+    },
+      {
+      Stack: "NgRx / Redux / RxJS / Socket.IO ",
+      progressPercentage: "95%"
+    },
+    {
+      Stack: "Backend / APIs",
       progressPercentage: "70%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -372,8 +385,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-888320****",
+  email_address: "maskoothfarook123@gmail.com"
 };
 
 // Twitter Section
