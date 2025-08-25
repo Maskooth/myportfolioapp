@@ -52,13 +52,22 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "FULL STACK DEVELOPER 🚀 | PASSIONATE ABOUT BUILDING SCALABLE, MODERN WEB APPS",
+  subTitle:
+    "FULL STACK DEVELOPER 🚀 | PASSIONATE ABOUT BUILDING SCALABLE, MODERN WEB APPS",
   skills: [
-    emoji("⚡ Develop highly interactive and responsive Frontend UIs using React, Angular, and Tailwind CSS"),
-    emoji("⚡ Build Progressive Web Apps (PWA) and Single Page Applications (SPA) for seamless user experience"),
-    emoji("⚡ Develop RESTful APIs and backend systems with Node.js and Express"),
+    emoji(
+      "⚡ Develop highly interactive and responsive Frontend UIs using React, Angular, and Tailwind CSS"
+    ),
+    emoji(
+      "⚡ Build Progressive Web Apps (PWA) and Single Page Applications (SPA) for seamless user experience"
+    ),
+    emoji(
+      "⚡ Develop RESTful APIs and backend systems with Node.js and Express"
+    ),
     emoji("⚡ Optimize performance for better SEO and fast loading times"),
-    emoji("⚡ Work with modern tools like Git, Docker, and CI/CD pipelines for smooth deployment")
+    emoji(
+      "⚡ Work with modern tools like Git, Docker, and CI/CD pipelines for smooth deployment"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -81,11 +90,11 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
-     {
+    {
       skillName: "TypeScript",
       fontAwesomeClassname: "fab fa-js"
     },
-     {
+    {
       skillName: "Angular",
       fontAwesomeClassname: "fab fa-angular"
     },
@@ -97,28 +106,28 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-      {
-    skillName: "Bootstrap",
-    fontAwesomeClassname: "fab fa-bootstrap",
-  },
+    {
+      skillName: "Bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
+    },
 
-   {
-    skillName: "GitHub",
-    fontAwesomeClassname: "fab fa-github",
-  },
+    {
+      skillName: "GitHub",
+      fontAwesomeClassname: "fab fa-github"
+    },
 
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
-    },
+    }
   ],
-  display: true 
+  display: true
 };
 
 // Education Section
 
 const educationInfo = {
-  display: true, 
+  display: true,
   schools: [
     {
       schoolName: "EGS Pillay Engineering College ( Anna University )",
