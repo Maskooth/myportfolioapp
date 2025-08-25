@@ -52,15 +52,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER 🚀 | PASSIONATE ABOUT BUILDING SCALABLE, MODERN WEB APPS",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Develop highly interactive and responsive Frontend UIs using React, Angular, and Tailwind CSS"),
+    emoji("⚡ Build Progressive Web Apps (PWA) and Single Page Applications (SPA) for seamless user experience"),
+    emoji("⚡ Develop RESTful APIs and backend systems with Node.js and Express"),
+    emoji("⚡ Optimize performance for better SEO and fast loading times"),
+    emoji("⚡ Work with modern tools like Git, Docker, and CI/CD pipelines for smooth deployment")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -83,6 +81,14 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
+     {
+      skillName: "TypeScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+     {
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular"
+    },
     {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
@@ -91,50 +97,40 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+      {
+    skillName: "Bootstrap",
+    fontAwesomeClassname: "fab fa-bootstrap",
+  },
+
+   {
+    skillName: "GitHub",
+    fontAwesomeClassname: "fab fa-github",
+  },
+
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true 
 };
 
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true, 
   schools: [
     {
       schoolName: "EGS Pillay Engineering College ( Anna University )",
       logo: require("./assets/images/Egs.jpg"),
       subHeader: "Master of Computer Applications",
       duration: "June 2020 - April 2022",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Specialized in advanced software development and enterprise applications. Completed projects focused on web technologies, cloud computing, and database management.",
+      descBullets: [
+        "Developed a mini-project on Angular and Node.js with REST APIs",
+        "Worked on a final-year project involving full-stack web application development",
+        "Participated in coding challenges within the college"
+      ]
     },
     {
       schoolName:
@@ -142,8 +138,12 @@ const educationInfo = {
       logo: require("./assets/images/Egs.jpg"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "July 2017 - June 20200",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Built a strong foundation in programming, algorithms, and data structures. Learned core concepts of computer science including OS, DBMS, and networking.",
+      descBullets: [
+        "Created a basic website using HTML, CSS, and JavaScript as part of academic projects",
+        "Presented seminars on emerging technologies like Cloud Computing and IoT",
+        "Actively participated in college-level technical events and coding contests"
+      ]
     }
   ]
 };
@@ -219,7 +219,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -369,7 +369,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -391,10 +391,10 @@ const contactInfo = {
 
 // Twitter Section
 
-const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
-};
+// const twitterDetails = {
+//   userName: "twitter", //Replace "twitter" with your twitter username without @
+//   display: true // Set true to display this section, defaults to false
+// };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
@@ -414,7 +414,6 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
-  twitterDetails,
   isHireable,
   resumeSection
 };
