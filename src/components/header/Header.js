@@ -66,7 +66,7 @@ function Header() {
               <a href="#blogs">Blogs</a>
             </li>
           )}
-        
+
           {viewResume && (
             <li>
               <a href="#resume">Resume</a>

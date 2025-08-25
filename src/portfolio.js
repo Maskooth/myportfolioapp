@@ -23,7 +23,8 @@ const greeting = {
   username: "Farook Dev",
   title: "Hi all, I'm Farook",
   subTitle: emoji(
-"A passionate Full Stack Software Developer 🚀 with hands-on experience in designing, developing, and deploying high-performance Web and Mobile applications. Skilled in JavaScript, TypeScript, Angular, React.js, Node.js, and modern frameworks, with a strong focus on clean architecture, performance optimization, and responsive UI. Enthusiastic about building scalable applications, integrating RESTful APIs, and implementing state management (NgRx / Redux)."  ),
+    "A passionate Full Stack Software Developer 🚀 with hands-on experience in designing, developing, and deploying high-performance Web and Mobile applications. Skilled in JavaScript, TypeScript, Angular, React.js, Node.js, and modern frameworks, with a strong focus on clean architecture, performance optimization, and responsive UI. Enthusiastic about building scalable applications, integrating RESTful APIs, and implementing state management (NgRx / Redux)."
+  ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -36,7 +37,8 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/maskooth-farook-770576200/",
   gmail: "maskoothfarook123gmail.com",
   instagram: "https://www.instagram.com/farook_dev/",
-  Teams: "https://teams.microsoft.com/l/team/19%3a1d5f1e0f5f6c4e3b9a3e1c4e4b8e7f5f%40thread.tacv2/conversations?groupId=00000000-0000-0000-0000-000000000000&tenantId=00000000-0000-0000-0000-000000000000",
+  Teams:
+    "https://teams.microsoft.com/l/team/19%3a1d5f1e0f5f6c4e3b9a3e1c4e4b8e7f5f%40thread.tacv2/conversations?groupId=00000000-0000-0000-0000-000000000000&tenantId=00000000-0000-0000-0000-000000000000",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
@@ -132,12 +134,11 @@ const educationInfo = {
       subHeader: "Master of Computer Applications",
       duration: "June 2020 - April 2022",
       desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     },
     {
-      schoolName: "EGS Pillay Arts and Science College ( Bharathidasan University )",
+      schoolName:
+        "EGS Pillay Arts and Science College ( Bharathidasan University )",
       logo: require("./assets/images/Egs.jpg"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "July 2017 - June 20200",
@@ -156,7 +157,7 @@ const techStack = {
       Stack: "Frontend / UI Design / Mobile Responsive Design", //Insert stack or technology you have experience in
       progressPercentage: "99%" //Insert relative proficiency in percentage,
     },
-     {
+    {
       Stack: "Css / Scss / Tailwind / Metronic / Bootstrap / Material UI ",
       progressPercentage: "99%"
     },
@@ -164,7 +165,7 @@ const techStack = {
       Stack: "Javascript / TypeScript / Angular / React / NodeJS",
       progressPercentage: "95%"
     },
-      {
+    {
       Stack: "NgRx / Redux / RxJS / Socket.IO ",
       progressPercentage: "95%"
     },
