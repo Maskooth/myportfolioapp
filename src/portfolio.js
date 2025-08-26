@@ -4,7 +4,9 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
-
+import javaCertificate from "./assets/resume/CertificateOfCompletion_Learning Java.pdf";
+import ai from "./assets/resume/Certificate_of_INTERNATIONAL CONFERENCE ON..._.pdf";
+import angular from "./assets/resume/Angular.pdf";
 // Splash Screen
 
 const splashScreen = {
@@ -36,9 +38,9 @@ const socialMediaLinks = {
   github: "https://github.com/Maskooth",
   linkedin: "https://www.linkedin.com/in/maskooth-farook-770576200/",
   gmail: "maskoothfarook123gmail.com",
-  instagram: "https://www.instagram.com/farook_dev/",
-  Teams:
-    "https://teams.microsoft.com/l/team/19%3a1d5f1e0f5f6c4e3b9a3e1c4e4b8e7f5f%40thread.tacv2/conversations?groupId=00000000-0000-0000-0000-000000000000&tenantId=00000000-0000-0000-0000-000000000000",
+  instagram: "https://www.instagram.com/maz._.xx?igsh=NW0zZnQyemlqbDRs",
+  // Teams:
+  //   "https://teams.microsoft.com/l/team/19%3a1d5f1e0f5f6c4e3b9a3e1c4e4b8e7f5f%40thread.tacv2/conversations?groupId=00000000-0000-0000-0000-000000000000&tenantId=00000000-0000-0000-0000-000000000000",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
@@ -243,28 +245,30 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME KEY WORK PROJECTS THAT I CONTRIBUTED TO",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Edutech.jpeg"),
+      projectName: "Recruitment Platform",
+      projectDesc:
+        "L&T’s Campus Recruitment teams visit India’s leading colleges, offering opportunities to bright graduates and post-graduates from various specialisations across engineering and management. The selection process is rigorous, and we look for candidates who match L&T’s value system, have a strong knowledge base, and the skill to apply concepts.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://campus-dev.lntedutech.com/l#/login"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/wap.png"),
+      projectName: "Identify technologies on websites",
+      projectDesc:
+        "Find out the technology stack of any website. Create lists of websites that use certain technologies, with company and contact details. Use our tools for lead generation, market analysis and competitor research.Empower your sales and marketing teams. Instantly reveal the technology stack of any website, such as CMS, ecommerce platform.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.wappalyzer.com/"
         }
       ]
     }
@@ -290,7 +294,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: angular
         },
         {
           name: "Self-Study"
@@ -309,7 +313,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "../assets/resume/CertificateOfCompletion_Learning Java.pdf"
+          url: javaCertificate
         },
         {name: "Self-Study"}
       ]
@@ -322,7 +326,7 @@ const achievementSection = {
       image: require("./assets/images/ai-generative-banner-concept-digital-style_208588-3832.avif"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        {name: "Certification", url: ai},
         {
           name: "Final Project"
         }
@@ -410,7 +414,7 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Reach Out to me!"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+91-888320****",

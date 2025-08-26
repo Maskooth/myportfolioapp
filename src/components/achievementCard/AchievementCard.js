@@ -2,15 +2,6 @@ import React from "react";
 import "./AchievementCard.scss";
 
 export default function AchievementCard({cardInfo, isDark}) {
-  function openUrlInNewTab(url, name) {
-    if (!url) {
-      console.log(`URL for ${name} not found`);
-      return;
-    }
-    var win = window.open(url, "_blank");
-    win.focus();
-  }
-
   return (
     <div className={isDark ? "dark-mode certificate-card" : "certificate-card"}>
       <div className="certificate-image-div">
@@ -30,13 +21,23 @@ export default function AchievementCard({cardInfo, isDark}) {
       </div>
       <div className="certificate-card-footer">
         {cardInfo.footer.map((v, i) => {
-          return (
+          return v.url ? (
+            <a
+              key={i}
+              href={v.url}
+              download
+              className={
+                isDark ? "dark-mode certificate-tag" : "certificate-tag"
+              }
+            >
+              {v.name}
+            </a>
+          ) : (
             <span
               key={i}
               className={
                 isDark ? "dark-mode certificate-tag" : "certificate-tag"
               }
-              onClick={() => openUrlInNewTab(v.url, v.name)}
             >
               {v.name}
             </span>
