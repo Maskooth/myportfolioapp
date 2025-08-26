@@ -146,7 +146,7 @@ const educationInfo = {
         "EGS Pillay Arts and Science College ( Bharathidasan University )",
       logo: require("./assets/images/Egs.jpg"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "July 2017 - June 20200",
+      duration: "July 2017 - June 2020",
       desc: "Built a strong foundation in programming, algorithms, and data structures. Learned core concepts of computer science including OS, DBMS, and networking.",
       descBullets: [
         "Created a basic website using HTML, CSS, and JavaScript as part of academic projects",
@@ -193,32 +193,40 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, 
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Developer",
+      company: "Orange Office Technologies",
+      companylogo: require("./assets/images/orange.png"),
+      date: "April 2025 – Present",
+      desc: "Shipsoft is a comprehensive shipping and logistics management application designed to streamline end-to-end operations for businesses in the supply chain sector. The platform enables companies to efficiently manage shipments, track consignments in real-time, automate documentation, and optimize delivery routes.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "📦 Shipment Management – Create, schedule, and track shipments seamlessly.",
+        "🚚 Real-time Tracking – GPS-enabled tracking for end-to-end visibility."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Junior Software Developer",
+      company: "L&T Edutech",
+      companylogo: require("./assets/images/Edutech.jpeg"),
+      date: "Aug 2022 – April 2025",
+      desc: "L&T EduTech is the learning and skilling arm of Larsen & Toubro (L&T), focused on bridging the gap between academic learning and industry requirements by offering application-based, practical learning interventions powered by L&T’s deep domain expertise",
+      descBullets: [
+        "Assessment & Certification: Includes assessments like the National Engineering Competency Test (NECT), aimed at evaluating pre-final and final-year students for entry-level hiring",
+        "Professional & Vocational Skilling: Upskilling and certification programs."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Developer Intern",
+      company: "L&T Edutech",
+      companylogo: require("./assets/images/Edutech.jpeg"),
+      date: "June 2022 – Aug 2022",
+      desc: "L&T EduTech is the learning and skilling arm of Larsen & Toubro (L&T), focused on bridging the gap between academic learning and industry requirements by offering application-based, practical learning interventions powered by L&T’s deep domain expertise",
+      descBullets: [
+        "CollegeConnect: Industry-aligned courses embedded into academic curricula across engineering disciplines",
+        "AICTE MoU: Industry-oriented courses are accessible via the AICTE platform, accessible nationwide"
+      ]
     }
   ]
 };
@@ -274,10 +282,10 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Master Of Angular",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Mastering Angular involves a comprehensive understanding of its core concepts and practical application in building web applications.",
+      image: require("./assets/images/Angular.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
@@ -285,39 +293,34 @@ const achievementSection = {
           url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          name: "Self-Study",
         },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+           {
+          name: "Freelance project",
+        },
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Learning Java",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Learning Java involves understanding a set of core concepts that form the foundation of the language and its object-oriented paradigm.",
+      image: require("./assets/images/java-logo-png_seeklogo-158094.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
+         {name: "Certification", url: "../assets/resume/CertificateOfCompletion_Learning Java.pdf"},
+        {name: "Self-Study"},
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "AI-based prediction of driver drowsiness",
+      subtitle: "International Conference on Advances in Science, Engineering and Management (ICASEM - 2022)", 
+      image: require("./assets/images/ai-generative-banner-concept-digital-style_208588-3832.avif"),
       imageAlt: "PWA Logo",
       footerLink: [
         {name: "Certification", url: ""},
-        {
+           {
           name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
         }
       ]
     }
@@ -330,24 +333,37 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "With a passion for web development, Angular, React, and TypeScript to share knowledge with the developer community.",
+  displayMediumBlogs: "false", // If you're not using Medium API
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript",
+      title: "JavaScript Basics Every Developer Should Know",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "A beginner-friendly guide to understanding JavaScript fundamentals, variables, functions, and the DOM."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://angular.io/guide/what-is-angular",
+      title: "Getting Started with Angular",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Learn the core concepts of Angular, including components, modules, and data binding to build scalable apps."
+    },
+    {
+      url: "https://react.dev/learn",
+      title: "React: Building Modern UI",
+      description:
+        "Discover the power of React for creating dynamic, component-based user interfaces with state and hooks."
+    },
+    {
+      url: "https://www.typescriptlang.org/docs/handbook/intro.html",
+      title: "TypeScript for JavaScript Developers",
+      description:
+        "Understand why TypeScript is becoming essential for large projects and how to add strong typing to JavaScript."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
+
 
 // Talks Sections
 
