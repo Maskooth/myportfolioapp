@@ -193,7 +193,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, 
+  display: true,
   experience: [
     {
       role: "Software Developer",
@@ -293,11 +293,11 @@ const achievementSection = {
           url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
         },
         {
-          name: "Self-Study",
+          name: "Self-Study"
         },
-           {
-          name: "Freelance project",
-        },
+        {
+          name: "Freelance project"
+        }
       ]
     },
     {
@@ -307,20 +307,24 @@ const achievementSection = {
       image: require("./assets/images/java-logo-png_seeklogo-158094.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
-         {name: "Certification", url: "../assets/resume/CertificateOfCompletion_Learning Java.pdf"},
-        {name: "Self-Study"},
+        {
+          name: "Certification",
+          url: "../assets/resume/CertificateOfCompletion_Learning Java.pdf"
+        },
+        {name: "Self-Study"}
       ]
     },
 
     {
       title: "AI-based prediction of driver drowsiness",
-      subtitle: "International Conference on Advances in Science, Engineering and Management (ICASEM - 2022)", 
+      subtitle:
+        "International Conference on Advances in Science, Engineering and Management (ICASEM - 2022)",
       image: require("./assets/images/ai-generative-banner-concept-digital-style_208588-3832.avif"),
       imageAlt: "PWA Logo",
       footerLink: [
         {name: "Certification", url: ""},
-           {
-          name: "Final Project",
+        {
+          name: "Final Project"
         }
       ]
     }
@@ -363,7 +367,6 @@ const blogSection = {
   ],
   display: true
 };
-
 
 // Talks Sections
 
