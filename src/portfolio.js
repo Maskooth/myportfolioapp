@@ -323,7 +323,7 @@ const achievementSection = {
       title: "AI-based prediction of driver drowsiness",
       subtitle:
         "International Conference on Advances in Science, Engineering and Management (ICASEM - 2022)",
-      image: require("./assets/images/Ai-logo.jpg"),
+      image: require("./assets/images/Ai-logo.png"),
       imageAlt: "PWA Logo",
       footerLink: [
         {name: "Certification", url: ai},
