@@ -232,7 +232,7 @@ const bigProjects = {
   subtitle: "SOME KEY WORK PROJECTS THAT I CONTRIBUTED TO",
   projects: [
     {
-      image: require("./assets/images/orange.png"),
+      image: require("./assets/images/shipsoft.svg")?.default || require("./assets/images/shipsoft.svg"),
       projectName: "ShipSoft",
       projectDesc:
         "Built a web-based logistics system for managing shipments, orders, and workflows. Implemented real-time tracking using Socket.IO for live updates. Created scalable dashboards and role-based access control for secure user management.",
@@ -244,7 +244,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/orange.png"),
+      image: require("./assets/images/eship_logo_blue.svg")?.default || require("./assets/images/eship_logo_blue.svg"),
       projectName: "eShip 360",
       projectDesc:
         "Developed a B2B freight forwarding platform for ocean and air shipments. Implemented end-to-end workflows including quoting, booking, documentation, and tracking, integrated with APIs for pricing and live updates.",
@@ -256,7 +256,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/orange.png"),
+      image: require("./assets/images/shipsoft.svg")?.default || require("./assets/images/shipsoft.svg"),
       projectName: "WMS",
       projectDesc:
         "Developed inventory and warehouse system for stock tracking and order fulfillment. Designed dashboards to improve warehouse visibility and operations. Integrated APIs for real-time data updates. Built reusable UI components for scalable architecture.",
