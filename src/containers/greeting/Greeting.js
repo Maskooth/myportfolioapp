@@ -1,16 +1,17 @@
-import React, {useContext} from "react";
-import {Fade} from "react-reveal";
+import React, { useContext } from "react";
+import { Fade } from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
 import landingPerson from "../../assets/lottie/landingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import {illustration, greeting} from "../../portfolio";
+import { illustration, greeting } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import resumePdf from "../../assets/resume/MASKOOTH_FAROOK_B_Resume.pdf";
 
 export default function Greeting() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   if (!greeting.displayGreeting) {
     return null;
   }
@@ -41,13 +42,12 @@ export default function Greeting() {
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
-                  <a
-                    href={require("../../assets/resume/Maskooth_Farook.pdf")}
-                    download="Farook_Resume.pdf"
+                  <Button 
+                    text="Download my resume" 
                     className="download-link-button"
-                  >
-                    <Button text="Download my resume" />
-                  </a>
+                    href={resumePdf}
+                    download="Farook_Resume.pdf"
+                  />
                 )}
               </div>
             </div>

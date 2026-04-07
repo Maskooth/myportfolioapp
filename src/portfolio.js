@@ -25,7 +25,7 @@ const greeting = {
   username: "Farook Dev",
   title: "Hi all, I'm Farook",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 with hands-on experience in designing, developing, and deploying high-performance Web and Mobile applications. Skilled in JavaScript, TypeScript, Angular, React.js, Node.js, and modern frameworks, with a strong focus on clean architecture, performance optimization, and responsive UI. Enthusiastic about building scalable applications, integrating RESTful APIs, and implementing state management (NgRx / Redux)."
+    "Frontend Developer with 4 years of experience building scalable, high-performance web applications using Angular. Strong expertise in RxJS, NgRx, and modern UI frameworks including Angular Material, NG Zorro, and Tailwind CSS. Proven ability to develop reusable components, optimize application performance, and deliver seamless user experiences. Familiar with Micro Frontend Architecture and modern modular frontend design principles."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -37,7 +37,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/Maskooth",
   linkedin: "https://www.linkedin.com/in/maskooth-farook-770576200/",
-  gmail: "maskoothfarook123gmail.com",
+  gmail: "maskoothfarook123@gmail.com",
   instagram: "https://www.instagram.com/maz._.xx?igsh=NW0zZnQyemlqbDRs",
   // Teams:
   //   "https://teams.microsoft.com/l/team/19%3a1d5f1e0f5f6c4e3b9a3e1c4e4b8e7f5f%40thread.tacv2/conversations?groupId=00000000-0000-0000-0000-000000000000&tenantId=00000000-0000-0000-0000-000000000000",
@@ -55,20 +55,20 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "FULL STACK DEVELOPER 🚀 | PASSIONATE ABOUT BUILDING SCALABLE, MODERN WEB APPS",
+    "FRONTEND DEVELOPER 🚀 | PASSIONATE ABOUT BUILDING SCALABLE, MODERN WEB APPS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive and responsive Frontend UIs using React, Angular, and Tailwind CSS"
+      "⚡ Develop highly interactive and responsive Frontend UIs using Angular, React, and modern UI frameworks like Angular Material, NG Zorro, and Tailwind CSS."
     ),
     emoji(
-      "⚡ Build Progressive Web Apps (PWA) and Single Page Applications (SPA) for seamless user experience"
+      "⚡ Implement state management using RxJS and NgRx, and utilize Micro Frontend Architecture for scalable modular designs."
     ),
     emoji(
-      "⚡ Develop RESTful APIs and backend systems with Node.js and Express"
+      "⚡ Integrate real-time features using Socket.IO, Chart.js, Apache ECharts, and AG Grid, alongside REST APIs for dynamic data flow."
     ),
-    emoji("⚡ Optimize performance for better SEO and fast loading times"),
+    emoji("⚡ Optimize application performance, reducing load times up to 30%, and ensure cross-browser compatibility."),
     emoji(
-      "⚡ Work with modern tools like Git, Docker, and CI/CD pipelines for smooth deployment"
+      "⚡ Work with modern tools like Git, Azure Boards, CI/CD, VS Code, and Cursor for efficient development workflows."
     )
   ],
 
@@ -132,28 +132,23 @@ const educationInfo = {
   display: true,
   schools: [
     {
-      schoolName: "EGS Pillay Engineering College ( Anna University )",
+      schoolName: "E.G.S Pillay Engineering College",
       logo: require("./assets/images/Egs.jpg"),
-      subHeader: "Master of Computer Applications",
-      duration: "June 2020 - April 2022",
-      desc: "Specialized in advanced software development and enterprise applications. Completed projects focused on web technologies, cloud computing, and database management.",
+      subHeader: "Master of Computer Application (MCA)",
+      duration: "06/2020 – 03/2022",
+      desc: "Specialized in advanced software development and enterprise applications.",
       descBullets: [
-        "Developed a mini-project on Angular and Node.js with REST APIs",
-        "Worked on a final-year project involving full-stack web application development",
-        "Participated in coding challenges within the college"
+        "Focus on core programming skills, analytical thinking, and system design."
       ]
     },
     {
-      schoolName:
-        "EGS Pillay Arts and Science College ( Bharathidasan University )",
+      schoolName: "E.G.S Pillay Arts & Science College",
       logo: require("./assets/images/Egs.jpg"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "July 2017 - June 2020",
-      desc: "Built a strong foundation in programming, algorithms, and data structures. Learned core concepts of computer science including OS, DBMS, and networking.",
+      subHeader: "Bachelor of Science in Computer Science (B.Sc)",
+      duration: "06/2017 – 04/2020",
+      desc: "Built a strong foundation in programming, algorithms, and data structures.",
       descBullets: [
-        "Created a basic website using HTML, CSS, and JavaScript as part of academic projects",
-        "Presented seminars on emerging technologies like Cloud Computing and IoT",
-        "Actively participated in college-level technical events and coding contests"
+        "Learned core concepts of computer science including OS, DBMS, and networking."
       ]
     }
   ]
@@ -173,24 +168,16 @@ const techStack = {
       progressPercentage: "99%" //Insert relative proficiency in percentage,
     },
     {
-      Stack: "Css / Scss / Tailwind / Metronic / Bootstrap / Material UI ",
+      Stack: "HTML / Css / Scss / Tailwind / Metronic / Bootstrap / Material UI / Nz zerro",
       progressPercentage: "99%"
     },
     {
       Stack: "Javascript / TypeScript / Angular / React / NodeJS",
-      progressPercentage: "95%"
+      progressPercentage: "99%"
     },
     {
       Stack: "NgRx / Redux / RxJS / Socket.IO ",
-      progressPercentage: "95%"
-    },
-    {
-      Stack: "Backend / APIs",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "90%"
+      progressPercentage: "99%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -205,33 +192,26 @@ const workExperiences = {
       role: "Software Developer",
       company: "Orange Office Technologies",
       companylogo: require("./assets/images/orange.png"),
-      date: "April 2025 – Present",
-      desc: "Shipsoft is a comprehensive shipping and logistics management application designed to streamline end-to-end operations for businesses in the supply chain sector. The platform enables companies to efficiently manage shipments, track consignments in real-time, automate documentation, and optimize delivery routes.",
+      date: "04/2025 – Present",
+      desc: "Lead frontend development using Angular for enterprise-scale applications.",
       descBullets: [
-        "📦 Shipment Management – Create, schedule, and track shipments seamlessly.",
-        "🚚 Real-time Tracking – GPS-enabled tracking for end-to-end visibility."
+        "Built scalable and high-performance web applications using reusable UI components.",
+        "Developed dynamic forms and complex workflows for logistics and warehouse systems.",
+        "Integrated REST APIs and handled asynchronous data flows using RxJS.",
+        "Optimized application performance, reducing load time by up to 30%."
       ]
     },
     {
-      role: "Junior Software Developer",
-      company: "L&T Edutech",
+      role: "Software Developer",
+      company: "L&T EduTech",
       companylogo: require("./assets/images/Edutech.jpeg"),
-      date: "Aug 2022 – April 2025",
-      desc: "L&T EduTech is the learning and skilling arm of Larsen & Toubro (L&T), focused on bridging the gap between academic learning and industry requirements by offering application-based, practical learning interventions powered by L&T’s deep domain expertise",
+      date: "04/2022 – 03/2025",
+      desc: "Developed responsive and scalable web applications using Angular.",
       descBullets: [
-        "Assessment & Certification: Includes assessments like the National Engineering Competency Test (NECT), aimed at evaluating pre-final and final-year students for entry-level hiring",
-        "Professional & Vocational Skilling: Upskilling and certification programs."
-      ]
-    },
-    {
-      role: "Software Developer Intern",
-      company: "L&T Edutech",
-      companylogo: require("./assets/images/Edutech.jpeg"),
-      date: "June 2022 – Aug 2022",
-      desc: "L&T EduTech is the learning and skilling arm of Larsen & Toubro (L&T), focused on bridging the gap between academic learning and industry requirements by offering application-based, practical learning interventions powered by L&T’s deep domain expertise",
-      descBullets: [
-        "CollegeConnect: Industry-aligned courses embedded into academic curricula across engineering disciplines",
-        "AICTE MoU: Industry-oriented courses are accessible via the AICTE platform, accessible nationwide"
+        "Implemented best practices including state management using NgRx.",
+        "Built UI features such as dashboards, theming, and validation workflows.",
+        "Integrated tools such as AG Grid, Chart.js, and Socket.IO for real-time features.",
+        "Collaborated with cross-functional teams to gather and implement requirements"
       ]
     }
   ]
@@ -248,31 +228,66 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Projects",
   subtitle: "SOME KEY WORK PROJECTS THAT I CONTRIBUTED TO",
   projects: [
     {
-      image: require("./assets/images/Edutech.jpeg"),
-      projectName: "Recruitment Platform",
+      image: require("./assets/images/orange.png"),
+      projectName: "ShipSoft",
       projectDesc:
-        "L&T’s Campus Recruitment teams visit India’s leading colleges, offering opportunities to bright graduates and post-graduates from various specialisations across engineering and management. The selection process is rigorous, and we look for candidates who match L&T’s value system, have a strong knowledge base, and the skill to apply concepts.",
+        "Built a web-based logistics system for managing shipments, orders, and workflows. Implemented real-time tracking using Socket.IO for live updates. Created scalable dashboards and role-based access control for secure user management.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://campus-dev.lntedutech.com/l#/login"
+          url: "http://shipsoftsolutions.com/login"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/wap.png"),
-      projectName: "Identify technologies on websites",
+      image: require("./assets/images/orange.png"),
+      projectName: "eShip 360",
       projectDesc:
-        "Find out the technology stack of any website. Create lists of websites that use certain technologies, with company and contact details. Use our tools for lead generation, market analysis and competitor research.Empower your sales and marketing teams. Instantly reveal the technology stack of any website, such as CMS, ecommerce platform.",
+        "Developed a B2B freight forwarding platform for ocean and air shipments. Implemented end-to-end workflows including quoting, booking, documentation, and tracking, integrated with APIs for pricing and live updates.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://www.wappalyzer.com/"
+          url: "https://eship360.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/orange.png"),
+      projectName: "WMS",
+      projectDesc:
+        "Developed inventory and warehouse system for stock tracking and order fulfillment. Designed dashboards to improve warehouse visibility and operations. Integrated APIs for real-time data updates. Built reusable UI components for scalable architecture.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://13.250.124.101:5006/login"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/Edutech.jpeg"),
+      projectName: "Unified Assessment Platform (UAP)",
+      projectDesc:
+        "Developed a platform for managing online assessments and exam workflows. Implemented scheduling, tracking, and integrated the TAO platform for conducting online tests to manage the complete assessment lifecycle.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://cbtadmindev.lntedutech.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/Edutech.jpeg"),
+      projectName: "Campus Recruitment Platform (C2E)",
+      projectDesc:
+        "Developed an end-to-end recruitment platform for campus hiring processes. Implemented stage-wise tracking of candidate progress and built comprehensive dashboards for recruiters to monitor workflows.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://campus.lntedutech.com/l#/login"
         }
       ]
     }
@@ -319,7 +334,7 @@ const achievementSection = {
           name: "Certification",
           url: javaCertificate
         },
-        {name: "Self-Study"}
+        { name: "Self-Study" }
       ]
     },
 
@@ -330,7 +345,7 @@ const achievementSection = {
       image: require("./assets/images/Ai-logo.png"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ai},
+        { name: "Certification", url: ai },
         {
           name: "Final Project"
         }
@@ -421,7 +436,7 @@ const contactInfo = {
   title: emoji("Reach Out to me!"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91-888320****",
+  number: "+91-8883204245",
   email_address: "maskoothfarook123@gmail.com"
 };
 
@@ -432,7 +447,7 @@ const contactInfo = {
 //   display: true // Set true to display this section, defaults to false
 // };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
