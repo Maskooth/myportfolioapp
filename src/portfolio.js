@@ -25,7 +25,8 @@ const greeting = {
   username: "Farook Dev",
   title: "Hi all, I'm Farook",
   subTitle: emoji(
-    "Frontend Developer with 4 years of experience building scalable, high-performance web applications using Angular. Strong expertise in RxJS, NgRx, and modern UI frameworks including Angular Material, NG Zorro, and Tailwind CSS. Proven ability to develop reusable components, optimize application performance, and deliver seamless user experiences. Familiar with Micro Frontend Architecture and modern modular frontend design principles."
+    "Frontend Developer with 4 years of experience building scalable, high-performance web applications using Angular and React. Strong expertise in Micro Frontend Architecture, RxJS, NgRx, and modern UI frameworks including Angular Material, NG Zorro, Tailwind CSS, and AG Grid. Proven ability to develop reusable components, implement dynamic data grids, optimize application performance, and deliver seamless user experiences using modern modular frontend design principles.
+"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
