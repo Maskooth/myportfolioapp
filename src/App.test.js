@@ -1,10 +1,10 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React, {act} from "react";
+import {createRoot} from "react-dom/client";
 import App from "./App";
 
 Object.defineProperty(window, "matchMedia", {
   writable: true,
-  value: jest.fn().mockImplementation(query => ({
+  value: query => ({
     matches: false,
     media: query,
     onchange: null,
@@ -13,11 +13,11 @@ Object.defineProperty(window, "matchMedia", {
     addEventListener: jest.fn(),
     removeEventListener: jest.fn(),
     dispatchEvent: jest.fn()
-  }))
+  })
 });
 
 it("renders without crashing", () => {
-  const div = document.createElement("div");
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
+  const root = createRoot(document.createElement("div"));
+  act(() => root.render(<App />));
+  act(() => root.unmount());
 });
